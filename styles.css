@@ -228,4 +228,38 @@ a {
 }
     
 /* Testmonies style end */
+
+/* Photos style beginning */
+
+#photos {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background: #221;
+    color: white;
+}
+
+.headtext {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    justify-items: center;
+}
     
+.photos-image {
+    display: inline-block;
+    width: 335px;
+    height: 355px;
+    border-radius: 6px;
+}
+    
+/* Photos style end */
