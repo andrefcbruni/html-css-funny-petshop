@@ -263,3 +263,35 @@ a {
 }
     
 /* Photos style end */
+
+/* Footer style beginning */
+
+#rodape {
+    background: #221;
+    color: white;
+    padding: 28px;
+    text-align: center;
+    }
+
+/* Footer style ending */
+
+@media screen and (max-width: 767px) {
+
+#navbar {
+    height: 235px;
+    }
+.navbar-container {
+    flex-direction: column;
+    padding: 18px 0;
+    }
+.navbar-items {
+        flex-direction: column;
+        text-align: center;
+        width: 60%;
+    }
+    .navbar-items li:nth-child(2) {
+        border-top: 2px solid #332;
+        border-bottom: 2px solid #332;
+    }
+        
+}    
