@@ -183,3 +183,49 @@ a {
  }
 
 /* Services style end */
+
+/* Testmonies style beginning */
+
+#testmonies {
+    width: 100%;
+    background: #221;
+    color: white;
+    padding: 40px;
+    }
+
+.headtext {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.testmonies-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testmonies {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    background: #332;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.testmonies .testmonies-image {
+    height: 200px;
+    width: auto;
+    border-radius: 55%;
+    margin: 18px;
+}
+    
+/* Testmonies style end */
+    
