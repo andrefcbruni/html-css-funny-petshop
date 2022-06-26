@@ -147,7 +147,39 @@ a {
         
 /* Products style end */
 
-
 /* Services style beginning */
+
+#services {
+    width: 100%;
+    background: #FFB612;
+    color: white;
+    padding: 40px;
+    }
+
+.headtext {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.services {
+    width: 625px;
+}
+
+.services .service-item {
+    display: flex;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 1.1rem;
+ }
 
 /* Services style end */
