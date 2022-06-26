@@ -8,6 +8,42 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    }
-    
+}
+
+a {
+    text-decoration: none;
+    color: #FFB612;
+}
+
+/*INICIO NAVBAR LOGO + LINKS(INICIO,CLIENTES,FOTOS)*/
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background:black;
+  color:#FFB612;
+}
+.navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.navbar-items li {
+    padding: 12px;
+    font-size: 1.1rem;
+}
     
