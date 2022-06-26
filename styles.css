@@ -75,3 +75,34 @@ a {
 }
 
 /* Banner style end */
+
+/* Clients style beginning */
+
+#clients {
+    width: 100%;
+    background: #FFB612;
+    color: white;
+    padding: 40px;
+}
+
+.headtext {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.client {
+    display: inline-block;
+    width: 25%;
+}
+
+.clients-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    padding: 12px;
+}
+/* Clients style end */
