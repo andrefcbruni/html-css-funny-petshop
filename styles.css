@@ -106,3 +106,48 @@ a {
     padding: 12px;
 }
 /* Clients style end */
+
+/* Products style beginning */
+#products {
+    width: 100%;
+    background: #221;
+    color: white;
+    padding: 40px;
+}
+
+.headtext {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.products-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background: #332;
+    padding: 18px;
+    border-radius: 4px;
+    }
+
+.product-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+        
+/* Products style end */
+
+
+/* Services style beginning */
+
+/* Services style end */
